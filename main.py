@@ -4,7 +4,6 @@ import plotly.graph_objects as go
 import streamlit as st
 import plotly.graph_objects as go
 
-
 st.header("Stock Prices")
 st.info("Created by Vitor Moura - Machine Learning Engineer")
 
@@ -83,7 +82,6 @@ def get_data(stockName, timeYear):
 # Tab 1
 df = get_data(stockName=stock, timeYear=time)
 
-
 @st.cache
 def convert_df(df):
     # IMPORTANT: Cache the conversion to prevent computation on every rerun
@@ -115,3 +113,4 @@ with data:
     if st.download_button(label = "Download Data", data = csv, file_name='{}_data.csv'.format(stock), mime='text/csv'):
         st.balloons()
 
+st.warning("If this solution broke, please, contact the Developer: vitormourabezerra@gmail.com")
