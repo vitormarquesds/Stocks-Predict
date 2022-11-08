@@ -114,3 +114,10 @@ with data:
         st.balloons()
 
 st.warning("If this solution broke, please, contact the Developer: vitormourabezerra@gmail.com")
+
+st.write("")
+st.write("")
+st.write("")
+st.write("")
+
+st.text("Release Version: 1.0")
