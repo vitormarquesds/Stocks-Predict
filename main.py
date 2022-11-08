@@ -4,6 +4,8 @@ import plotly.graph_objects as go
 import streamlit as st
 import plotly.graph_objects as go
 
+st.set_page_config(page_title="Capital Market", page_icon="logo.png")
+
 st.header("Stock Prices")
 st.info("Created by Vitor Moura - Machine Learning Engineer")
 
