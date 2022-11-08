@@ -114,5 +114,4 @@ with data:
     st.dataframe(df, width=720, height=260)
     if st.download_button(label = "Download Data", data = csv, file_name='{}_data.csv'.format(stock), mime='text/csv'):
         st.balloons()
-        
-        
+
